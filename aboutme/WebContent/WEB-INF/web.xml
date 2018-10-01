@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>gfgf</display-name>
+    <servlet-name>gfgf</servlet-name>
+    <servlet-class>servlet.gfgf</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>gfgf</servlet-name>
+    <url-pattern>/gfgf</url-pattern>
+  </servlet-mapping>
 </web-app>
